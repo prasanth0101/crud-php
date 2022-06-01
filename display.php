@@ -49,18 +49,15 @@
             <td>'.$email.'</td>
             <td>'.$mobile.'</td>
             <td>'.$password.'</td>
+            <td>
+            <button class="btn btn-primary"<a href="update.php?updateid='.$id.'" class="text-light">update</a>Update</a></button>
+            <button class="btn btn-primary"<a href="update.php?deleteid='.$id.'" class="text-light">update</a>Update</a></button>
+            
           </tr>';
 
         }
     }
    ?>
-            <!-- <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            </tr>
-            -->
   </tbody>
 </table>
     </div>
